@@ -5,11 +5,11 @@ function NikeHeader() {
   return (
     <div className="bg-yellow-300">
       <div className="container mx-auto">
-        <nav className="flex justify-between items-center">
+        <nav className="flex justify-between items-center px-4 md:px-0">
           <div>
             <img src={logo} alt="" className="p-3" />
           </div>
-          <div className="flex gap-4">
+          <div className="md:flex gap-4 hidden">
             <a href="#" className="text-base font-semibold hover:underline">
               Menu
             </a>
